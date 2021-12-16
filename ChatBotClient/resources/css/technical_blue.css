@@ -1,0 +1,66 @@
+  
+.root
+{
+	-fx-smooth: true;
+	/**
+	 * Die Grundfarbe von diese werden die späteren Properties teilweise abgeleitet
+	 * -fx-base: #8aa9db;
+	 */
+	
+	-fx-base: #c4d4ed;
+	-fx-disabled-opacity: 0.4;
+}
+
+
+#default_scene
+{
+	-fx-background-color:
+	   -fx-shadow-highlight-color, 
+       -fx-outer-border, 
+       -fx-inner-border;
+     -fx-background-insets: 0 0 -1 0, 0, 1, 2;
+  	 -fx-background-radius: 7px, 7px, 7px, 7px;
+  	 
+  	 -fx-font-family: sans-serif;
+  	 
+  	 -fx-border-radius: 7px, 7px, 7px, 7px;
+	 -fx-border-insets: 0;
+	 -fx-border-width: 2;
+	 -fx-border-color: linear-gradient(from 0% 20% to 0% 100%, #b1c6e7,  #4f7ec980,  #4f7ec9AA);
+	 -fx-border-style: solid;
+	 
+	 
+}
+
+#default_scene .button
+{
+	-fx-font-weight: bold;
+}
+
+.button {
+    -fx-text-fill: linear-gradient(to bottom,  #638ccf 15%, #3665b0  );
+}
+
+
+#label_colorized_text {
+    -fx-text-fill: #2a4e89;
+}
+
+#label_colorized_title
+{
+	-fx-text-fill: #2a4e89;
+	-font-size:13pt;
+	-font-weight: bold;
+}
+
+
+#roundButton
+{
+	-fx-background-radius: 5em;
+	-fx-min-width: 25px; 
+	-fx-min-height: 25px;
+	-fx-max-width: 25px; 
+	-fx-max-height: 25px;
+	
+	-fx-font-weight: bold;
+}
